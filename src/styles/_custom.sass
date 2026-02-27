@@ -82,7 +82,9 @@
 
 .tarjeta-avatar
   .tarjeta--boton.color-secundario.p-4
-    height: 280px
+    height: 320px
+    @media screen and (max-width: $bp-max-sm)
+      height: auto
 
 .tarjeta-avatar
   img
@@ -153,7 +155,7 @@
   background-size: cover
 
 .tarjeta.color-primario.img1-5.p-4
-  height: 260px
+  height: auto
 .img1-5
   background-image: url('../assets/curso/temas/tema1/img1-5.svg') !important
   background-size: cover

@@ -135,7 +135,7 @@ export default {
     {
       termino: 'DCL',
       significado:
-        'Lenguaje de Control de Datos. Controlar el acceso de usuario a las tablas o registros de base de datos y a su contenido.',
+        'Lenguaje de control de datos. Controlar el acceso de usuario a las tablas o registros de base de datos y a su contenido.',
     },
     {
       termino: 'Eventos',
@@ -184,29 +184,30 @@ export default {
       referencia:
         'Capacho, J. & Nieto, W. (2017).<i> Diseño de base de datos</i>. Universidad del Norte.',
       link:
-        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/70030?page=61',
+        'https://editorial.uninorte.edu.co/gpd-diseno-de-base-de-datos.html',
     },
     {
       referencia:
         'Coronel, C., Morris, S. & Rob, P. (2011). <i>Bases de datos: diseño, implementación y administración</i>. Cengage Learning.',
-      link: 'https://issuu.com/cengagelatam/docs/bases_de_datos_coronel',
+      link:
+        'https://rockflood.wordpress.com/wp-content/uploads/2015/12/coronel-c-2011-bases-de-datos.pdf',
     },
     {
       referencia:
         'Hueso, L. (2016). <i>Administración de sistemas gestores de bases de datos</i>. Ediciones de la U.',
-      link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=7943',
+      link:
+        'https://edicionesdelau.com/producto/administracion-de-sistemas-gestores-de-bases-de-datos/',
     },
     {
       referencia:
         'Kinsta. (2021). <i>Explorando una base de datos de WordPress con Adminer</i>.',
       link:
-        'https://kinsta.com/wp-content/uploads/2021/01/Exploring-WordPress-Database-With-Adminer.png',
+        'https://kinsta.com/wp-content/uploads/2021/01/Exploring-WordPress-Database-With-Adminer.png ',
     },
     {
       referencia:
         'Martínez, D. y Tejada, L. (2019). <i>Manual de bases de datos</i>. Universidad Abierta para Adultos (UAPA).',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/175897?page=166.',
+      link: 'https://es.scribd.com/document/665716028/12-31-16200147',
     },
     {
       referencia:
@@ -217,13 +218,12 @@ export default {
       referencia:
         'Pulido, E., Escobar, O. & Núñez, J. (2019). <em>Base de datos.</em> Grupo Editorial Patria.',
       link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/121283',
+        'https://es.scribd.com/document/728742385/BaseDatos-Pulido-Escobar-Nunez-eBook',
     },
     {
       referencia:
         'Sarasa, A. (2016). <em>Introducción a las bases de datos NoSQL usando MongoDB.</em> Editorial UOC.',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/58524?page=291',
+      link: '',
     },
   ],
   creditos: {

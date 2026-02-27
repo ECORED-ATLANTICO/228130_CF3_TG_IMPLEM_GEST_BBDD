@@ -18,7 +18,7 @@
             br
             p.text-der.mb-0 La RAE
             i.fas.fa-quote-right
-      .col-lg-5.order-sm-first.order-lg-last.mb-sm-4(data-aos="fade-left")
+      .col-lg-5.order-sm-first.order-lg-last.mb-3.mb-lg-0(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema2/img2-1.png', alt='Automatización')
 
@@ -27,9 +27,7 @@
         .cajon.color-acento-contenido.p-4.mb-4(style="background-color: #FFF4DA")
           p.mb-0 Hoy en día todos los sistemas gestores de bases de datos, comerciales y libres cuentan con herramientas para la automatización de la información. Existen en cada sistema gestor de base de datos herramientas avanzadas como en el caso de #[em MySQL Enterprise monitor] que facilitan la automatización y control de los servidores sin necesidad de recurrir a la programación en consola. Sin embargo, es primordial conocer las herramientas y sintaxis básicas para la creación de tareas automatizadas. A continuación, se explican las acciones del sistema para realizar tareas automáticas que ayuden con la gestión de información dispuesta en la base de datos.
 
-    h3(data-aos="fade-right")
-      i.fas.fa-square.cac.me-3
-      |Herramientas para automatizar tareas
+    h3.titulo-tercero(data-aos="fade-right") Herramientas para automatizar tareas
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
@@ -52,7 +50,7 @@
             figure
               img(src='@/assets/curso/temas/tema2/img2-3.svg', alt='Herramientas SQL')
           .tarjeta.color-acento-contenido.p-3(x="24%" y="82%" numero="")
-            p.text-center Con esta herramienta podemos realizar modelado de datos, está dada para el desarrollo #[em SQL],diseño, gestión, administración y mantenimiento de bases de datos. Creada por la empresa Oracle se puede instalar en Windows, Linux y Mac OS.
+            p.text-center Con esta herramienta podemos realizar modelado de datos, está dada para el desarrollo #[em SQL], diseño, gestión, administración y mantenimiento de bases de datos. Creada por la empresa Oracle, se puede instalar en Windows, Linux y Mac OS.
           .tarjeta.color-acento-contenido.p-3(x="40%" y="82%" numero="")
             p.text-center Herramienta gráfica realizada por la empresa PremiumSoft CyberTech Ltd. Contiene una interfaz gráfica intuitiva, con esta se pueden realizar desarrollo, mantenimiento y gestión de bases de datos. Soportada para #[em MySQL]. Se puede instalar en Windows, Linux y Mac OS.
           .tarjeta.color-acento-contenido.p-3(x="57%" y="82%" numero="")
@@ -60,7 +58,7 @@
           .tarjeta.color-acento-contenido.p-3(x="73%" y="82%" numero="")
             p.text-center Herramienta utilizada para operaciones de datos, ejecutar consultas y #[em scripts] SQL; por otra parte, hace fácil la copia de seguridad, la exportación y la importación de datos. Solo puede ser instalada en sistemas operativos Windows.
           .tarjeta.color-acento-contenido.p-3(x="88%" y="82%" numero="")
-            p.text-center Considerada como unas de las más robustas herramientas para la administración de datos. Solo compatible con Windows, fue fabricada por DB Tools Software; permite la administración de bases de datos, tablas (incluyendo indexadas, #[em triggers]), dominios, entre otras funciones.
+            p.text-center Considerada como una de las más robustas herramientas para la administración de datos. Solo compatible con Windows, fue fabricada por DB Tools Software; permite la administración de bases de datos, tablas (incluyendo indexadas, #[em triggers]), dominios, entre otras funciones.
 
     .row.justify-content-center.mb-5
       .col-lg-10.col-sm-8(data-aos="fade-left")
@@ -77,12 +75,10 @@
           .tarjeta.color-acento-contenido.p-3(x="86%" y="82%" numero="")
             p.text-center Herramientas con tareas de registro de clústeres de #[em MongoDB] mediante una consola de administración basada en web. La consola permite obtener una visión general de su entorno #[em Mongo] y un desglose para ver diversa información sobre sus bases de datos en la web, esta herramienta es portable en el sentido que se puede ingresar desde la web a la consola de base de datos #[em MongoDB].
 
-    h3(data-aos="fade-right")
-      i.fas.fa-square.cac.me-3
-      |Procedimientos y funciones de almacenados
+    h3.titulo-tercero(data-aos="fade-right") Procedimientos y funciones de almacenados
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4.mb-sm-4(data-aos="fade-right")
+      .col-lg-4.mb-3.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema2/img2-5.png', alt='Persona usando tablet')
       .col-lg-8(data-aos="fade-left")
@@ -107,19 +103,19 @@
     p.mb-5(data-aos="fade-left") Desde la versión #[em MySQL 5.0.3] el sistema de permisos ha cambiado, para realizar los procedimientos almacenados se deben activar los siguientes permisos:
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4.mb-sm-4
+      .col-lg-4.mb-3.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema2/img2-6.svg', alt='Uno')
           .tarjeta--boton.color-secundario.p-4
             .text-center.mt-5
               p.text-center #[br] #[b #[em CREATE ROUTINE]] crear procedimientos almacenados.
-      .col-lg-4.mb-sm-4
+      .col-lg-4.mb-3.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema2/img2-7.svg', alt='Dos')
           .tarjeta--boton.color-secundario.p-4
             .text-center.mt-5
               p.text-center #[br] #[b #[em ALTER ROUTINE]] se realiza para cambiar o borrar procedimientos almacenados.
-      .col-lg-4.mb-sm-4
+      .col-lg-4.mb-3.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema2/img2-8.svg', alt='Tres')
           .tarjeta--boton.color-secundario.p-4
@@ -129,49 +125,47 @@
     p.mb-5(data-aos="fade-right") A continuación, se presentan los usos de las sintaxis de procedimientos almacenados, según la opción que se vaya a realizar:
 
     TabsC.color-acento-contenido.mb-5(data-aos="zoom-in")
-      .py-4.py-md-5(titulo="<em>CREATE PROCEDURE Y CREATE FUNCTION</em>")
+      .py-4.py-lg-5(titulo="<em>CREATE PROCEDURE Y CREATE FUNCTION</em>")
         .row.justify-content-center.align-items-center
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-lg-0
             p Sintaxis que se realiza para crear una rutina almacenada. Es decir, el servidor conoce la rutina generada. La rutina almacenada está asociada con la base de datos que se escogió. Para asociar la rutina explícitamente con una base de datos determinada, se indica el nombre #[b db_name.sp_name] que se definió cuando se creó.
-          .col-md-6
+          .col-lg-6
             figure
               img(src='@/assets/curso/temas/tema2/img2-9.png', alt='Precedimiento Create')
-      .py-4.py-md-5(titulo="<em>ALTER PROCEDURE Y ALTER FUNCTION</em>")
+      .py-4.py-lg-5(titulo="<em>ALTER PROCEDURE Y ALTER FUNCTION</em>")
         .row.justify-content-center.align-items-center
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-lg-0
             p Sintaxis realizada para cambiar las características de un procedimiento o función, es permitida si tiene el permiso #[b #[em Alter Routine]].
-          .col-md-6
+          .col-lg-6
             .titulo-sexto.color-acento-contenido.cfc(data-aos="fade-left")
               p.mb-3 ALTER {PROCEDURE | FUNCTION} sp_name [characteristic ...]
               p.mb-0 characteristic:
               p.mb-0 { CONTAINS SQL | NO SQL | READS SQL DATA | MODIFIES SQL DATA }
               p.mb-0 | SQL SECURITY { DEFINER | INVOKER }
               p.mb-0 | COMMENT 'string'
-      .py-4.py-md-5(titulo="<em>DROP PROCEDURE Y DROP FUNCTION</em>")
+      .py-4.py-lg-5(titulo="<em>DROP PROCEDURE Y DROP FUNCTION</em>")
         .row.justify-content-center.align-items-center
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-lg-0
             p Sintaxis utilizada para borrar un procedimiento o función de almacenado.
-          .col-md-6
+          .col-lg-6
             .titulo-sexto.color-acento-contenido.cfc(data-aos="fade-left")
               p.mb-0 DROP {PROCEDURE | FUNCTION} [IF EXISTS] sp_name
-      .py-4.py-md-5(titulo="<em>SHOW CREATE PROCEDURE Y SHOW CREATE FUNCTION</em>")
+      .py-4.py-lg-5(titulo="<em>SHOW CREATE PROCEDURE Y SHOW CREATE FUNCTION</em>")
         .row.justify-content-center.align-items-center
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-lg-0
             p Muestra el procedimiento junto con la función.
-          .col-md-6
+          .col-lg-6
             .titulo-sexto.color-acento-contenido.cfc(data-aos="fade-left")
               p.mb-0 SHOW CREATE {PROCEDURE | FUNCTION} sp_name
 
-    h3(data-aos="fade-right")
-      i.fas.fa-square.cac.me-3
-      |#[i Triggers]
+    h3.titulo-tercero(data-aos="fade-right") #[i Triggers]
 
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/QFOw90c64Ww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-1.col-sm-2(data-aos="fade-right")
+      .col-6.col-lg-1.mb-3.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema2/img2-10.svg', alt='Código')
       .col-lg-11.col-sm-10(data-aos="fade-left")
@@ -186,10 +180,10 @@
           br
           em Concepto de trigger
         figure
-          img(src='@/assets/curso/temas/tema2/img2-11.svg', alt='Concepto de trigger')
+          img(src='@/assets/curso/temas/tema2/img2-11.svg', alt='A continuación se detalla los tres tipos de disparadores de bases de datos.')
 
     .row.justify-content-center.mb-5
-      .col-lg-3.mb-sm-4(data-aos="fade-right")
+      .col-lg-3.mb-3.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema2/img2-12.svg', alt='Persona trabajando')
       .col-lg-9(data-aos="fade-left")
@@ -210,9 +204,7 @@
         figure
           img(src='@/assets/curso/temas/tema2/1.svg', alt='En la figura se muestran los diferentes usos de los Triggers.')
 
-    h3(data-aos="fade-right")
-      i.fas.fa-square.cac.me-3
-      |Vistas
+    h3.titulo-tercero(data-aos="fade-right") Vistas
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
@@ -227,40 +219,39 @@
     SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
       .tarjeta.color-primario.p-4
         .row.justify-content-center.mb-3
-          .col-8
+          .col-6.col-lg-8
             img(src='@/assets/curso/temas/tema2/img2-15.svg', alt='Control de acceso')
         h2.text-center Control de acceso
         p.text-center De una tabla real se puede decidir qué información compartir para un usuario específico.
       .tarjeta.color-primario.p-4
         .row.justify-content-center.mb-3
-          .col-8
+          .col-6.col-lg-8
             img(src='@/assets/curso/temas/tema2/img2-16.svg', alt='Mejorar rendimiento')
         h2.text-center Mejorar rendimiento
         p.text-center Con las consultas realizadas se pueden crear vistas, en términos de consumo del menor recurso, pues únicamente utiliza lo necesario.
       .tarjeta.color-primario.p-4
         .row.justify-content-center.mb-3
-          .col-8
+          .col-6.col-lg-8
             img(src='@/assets/curso/temas/tema2/img2-17.svg', alt='Candado')
         h2.text-center Pruebas seguras
         p.text-center Ofrecen pruebas para los desarrolladores sin que generen cambios en las tablas reales.
       .tarjeta.color-primario.p-4
         .row.justify-content-center.mb-3
-          .col-8
+          .col-6.col-lg-8
             img(src='@/assets/curso/temas/tema2/img2-18.svg', alt='Reusabilidad')
         h2.text-center Reusabilidad de consultas
         p.text-center Se pueden guardar consultas para ser utilizadas en otros momentos, si es necesario.
       .tarjeta.color-primario.p-4
         .row.justify-content-center.mb-3
-          .col-8
+          .col-6.col-lg-8
             img(src='@/assets/curso/temas/tema2/img2-19.svg', alt='Configuración')
         h2.text-center Mantenimiento de la integridad
         p.text-center Las vistas son datos extraídos de las tablas originales, si hay cambios de datos no afecta la tabla real, por ende, la integridad de los datos se mantiene.
 
-    p.mb-5(data-aos="fade-right")  A continuación, se muestra cómo se hace para crear, ver y eliminar vistas en
-      em MySQL:
+    p.mb-5(data-aos="fade-right")  A continuación, se muestra cómo se hace para crear, ver y eliminar vistas en <em>MySQL</em>:
 
     .row.justify-content-center.mb-5
-      .col-lg-4.mb-sm-5(data-aos="fade-left")
+      .col-lg-4.mb-3.mb-lg-0(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema2/img2-20.svg', alt='Persona trabajando')
       .col-lg-8(data-aos="zoom-in")
@@ -294,21 +285,15 @@
               figure
                 img(src='@/assets/curso/temas/tema2/img2-21.svg', alt='Código')
 
-    h3(data-aos="fade-right")
-      i.fas.fa-square.cac.me-3
-      |Eventos
+    h3.titulo-tercero(data-aos="fade-right") Eventos
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-1.col-sm-2(data-aos="fade-right")
+      .col-6.col-lg-1.mb-3.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema2/img2-22.svg', alt='Persona trabajando')
       .col-lg-11.col-sm-10(data-aos="fade-left")
-        p Los eventos son tareas que se programan en un sistema gestor de base de datos en un momento de tiempo determinado, estas permiten a los administradores programar tareas para que ejecuten acciones en ciertos periodos de tiempo, en un momento en concreto; para el caso en
-          em MySQL
-          |se pueden registrar a partir de la versión 5.1.
-        p.mb-0 Para crear un evento se tiene primero la tabla
-          em test
-          |:
+        p Los eventos son tareas que se programan en un sistema gestor de base de datos en un momento de tiempo determinado, estas permiten a los administradores programar tareas para que ejecuten acciones en ciertos periodos de tiempo, en un momento en concreto; para el caso en <em>MySQL</em> se pueden registrar a partir de la versión 5.1.
+        p.mb-0 Para crear un evento se tiene primero la tabla <em>test</em>:
 
     .row.justify-content-center.mb-5
       .col-lg-6(data-aos="flip-up")
@@ -316,7 +301,7 @@
           img(src='@/assets/curso/temas/tema2/img2-23.svg', alt='Creación de tabla')
 
     p.mb-5(data-aos="fade-left")
-      b Nota:
+      b Nota: 
       |los eventos se ejecutan si el servidor está habilitado y se indica con la siguiente sintaxis:
 
     .row.justify-content-center.mb-5
@@ -324,19 +309,14 @@
         figure
           img(src='@/assets/curso/temas/tema2/img2-24.svg', alt='Servidor habilitado')
 
-    p.mb-5(data-aos="fade-left") Para el siguiente caso se creará un evento que insertará un registro en la tabla
-      em test
-      |en un intervalo de 1 minuto.
+    p.mb-5(data-aos="fade-left") Para el siguiente caso se creará un evento que insertará un registro en la tabla <em>test</em> en un intervalo de 1 minuto.
 
     .row.justify-content-center.mb-5
       .col-lg-6(data-aos="flip-up")
         figure
           img(src='@/assets/curso/temas/tema2/img2-25.svg', alt='Insertar registro')
 
-    h3(data-aos="fade-right")
-      i.fas.fa-square.cac.me-3
-      |Espacio de tabla
-      em (tablespace)
+    h3.titulo-tercero(data-aos="fade-right") Espacio de tabla (<em>tablespace</em>)
     p.mb-5 La idea de <i>tablespace</i> se considera como un concepto lógico. Son archivos virtuales acumulados, de muchas tablas, donde se almacenan registros, sirven para trabajar sobre tablas que se necesitan para realizar una tarea específica, minimizando los recursos del servidor y permitiendo realizar tareas más rápidas por la utilización del recurso que se necesita para dicha tarea.
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8.col-sm-9(data-aos="zoom-in")
@@ -345,28 +325,24 @@
           br
           em Concepto lógico de <i>Tablespace</i>
         figure
-          img(src='@/assets/curso/temas/tema2/img2-26.svg', alt='Concepto Tablespaces')
+          img(src='@/assets/curso/temas/tema2/img2-26.svg', alt='En la figura se muestra el concepto lógico de Tablespace, System, Sysaux, Undo, Opcional tabla, Opcional indice, Temp que van todos dirigidos al Disco.')
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-3(data-aos="fade-right")
+      .col-lg-3(data-aos="fade-right").mb-3.mb-lg-0
         figure
           img(src='@/assets/curso/temas/tema2/img2-27.svg', alt='Persona trabajando')
       .col-lg-9(data-aos="fade-left")
         p A continuación, se muestra cómo se ejecuta la creación de un espacio de tabla:
         img.img-a.img-t(src='@/assets/curso/temas/tema2/img2-28.svg', alt='Creación de tablespace')
 
-    h3(data-aos="fade-right")
-      i.fas.fa-square.cac.me-3
-      |Tablas e índices
+    h3.titulo-tercero(data-aos="fade-right") Tablas e índices
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-3.mb-sm-4(data-aos="fade-right")
+      .col-lg-3.mb-3.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema2/img2-29.svg', alt='Persona trabajando')
       .col-lg-9(data-aos="fade-left")
-        p Los índices son un tipo de acción que apunta a una o varias columnas almacenando información relacionada entre el contenido de la columna y el puntero de búsqueda; es decir, que el puntero se activa cuando encuentra coincidencia en la búsqueda que se da. Los índices cumplen con el objetivo de disminuir el tiempo de ejecución de una consulta en nuestra base de datos (la diferencia se nota aún más si se tienen grandes volúmenes de datos). Si no existen índices,
-          em MySQL
-          |busca la solicitud requerida desde la primera fila hasta la última, implicando un mayor tiempo de ejecución, mayores recursos para hacer la búsqueda de información, haciendo más demorado los tiempos de respuesta.
+        p Los índices son un tipo de acción que apunta a una o varias columnas almacenando información relacionada entre el contenido de la columna y el puntero de búsqueda; es decir, que el puntero se activa cuando encuentra coincidencia en la búsqueda que se da. Los índices cumplen con el objetivo de disminuir el tiempo de ejecución de una consulta en nuestra base de datos (la diferencia se nota aún más si se tienen grandes volúmenes de datos). Si no existen índices, <em>MySQL</em> busca la solicitud requerida desde la primera fila hasta la última, implicando un mayor tiempo de ejecución, mayores recursos para hacer la búsqueda de información, haciendo más demorado los tiempos de respuesta.
         p.mb-0 A continuación, podemos conocer los tipos de índices:
 
     .row.justify-content-center.mb-5
@@ -374,14 +350,14 @@
         h5 Figura 5
         br
         em Índices
-      .col-lg-12.col-sm-9(data-aos="zoom-in")
+      .col-lg-12(data-aos="zoom-in")
         figure
-          img(src='@/assets/curso/temas/tema2/img2-30.svg', alt='Tipos de índices')
+          img(src='@/assets/curso/temas/tema2/img2-30.svg', alt='A continuación se define los tipos de índices, Primary, Index, Unique, Fulltext y Spatial.')
 
     p.mb-5 La siguiente es la instrucción o <b>sintaxis </b>para crear índices:
 
     .row.justify-content-center.mb-5
-      .col-lg-4.mb-sm-4(data-aos="fade-right")
+      .col-lg-4.mb-3.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema2/img2-31.png', alt='Código')
       .col-lg-8(data-aos="fade-left")
@@ -394,13 +370,7 @@
                     em CREATE TABLE nombreTabla(campo1 tipoDato,
                   p.mb-0
                     em [campo2...,] PRIMARY KEY (campo1 [,campo2...]) );
-              p Se registra la palabra clave
-                em NOT NULL
-                |, esta es obligatoria para un campo cuando éste vaya a formar parte de una clave primaria
-                em primary key
-                |; como se menciona anteriormente, las claves primarias no contienen valores nulos. Si se intenta crear una clave primaria sobre un campo nulo,
-                em MySQL
-                |arrojará un error.
+              p Se registra la palabra clave <em>NOT NULL</em>, esta es obligatoria para un campo cuando éste vaya a formar parte de una clave primaria <em>primary key</em>; como se menciona anteriormente, las claves primarias no contienen valores nulos. Si se intenta crear una clave primaria sobre un campo nulo, <em>MySQL</em> arrojará un error.
           .row(numero="2" titulo="Crear una clave primaria en una tabla existente con el uso del comando <em>ALTER TABLE</em>")
             .col-lg-12
               p
@@ -432,16 +402,7 @@
         figure
           img(src='@/assets/curso/temas/tema2/img2-32.svg', alt='Código ejemplo')
 
-        p.mt-5(data-aos="fade-down") El campo id no tiene un valor
-          em YES
-          |en la columna
-          em Null
-          |, significa que no puede almacenar valores nulos. Registra un valor
-          em PRI
-          |en la columna de la llave
-          em Key
-          |indica que este campo es una clave primaria
-          em primary key.
+        p.mt-5(data-aos="fade-down") El campo id no tiene un valor <em>YES</em> en la columna <em>Null</em>, significa que no puede almacenar valores nulos. Registra un valor <em>PRI</em> en la columna de la llave <em>Key</em> indica que este campo es una clave primaria <em>primary key</em>.
 
     p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
 

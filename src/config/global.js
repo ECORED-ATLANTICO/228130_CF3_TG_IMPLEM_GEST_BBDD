@@ -69,11 +69,11 @@ export default {
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
       },
-      {
+      /*{
         nombreRuta: 'complementario',
         icono: 'far fa-folder-open',
         titulo: 'Material complementario',
-      },
+      },*/
       {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
@@ -219,6 +219,12 @@ export default {
         'Pulido, E., Escobar, O. & Núñez, J. (2019). <em>Base de datos.</em> Grupo Editorial Patria.',
       link:
         'https://es.scribd.com/document/728742385/BaseDatos-Pulido-Escobar-Nunez-eBook',
+    },
+    {
+      referencia:
+        'Sarasa, A. (2016). <em>Introducción a las bases de datos NoSQL usando MongoDB</em>. Editorial UOC.',
+      link:
+        'https://dokumen.pub/introduccion-a-las-bases-de-datos-nosql-usando-mongodb-9788491162506.html',
     },
   ],
   creditos: {

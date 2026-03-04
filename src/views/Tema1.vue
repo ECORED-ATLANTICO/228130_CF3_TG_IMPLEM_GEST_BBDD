@@ -500,7 +500,7 @@
                   em IDENTIFIED WITH Administrador2022 BY ‘new_password’
                 p.mb-0 PASSWORD EXPIRE INTERVAL 240 DAY
               p
-                <b>Nota</b>: Si visualiza este comando, se procede a crear la cuenta de usuario Administrador, con <em>password</em> Administrador2022 e indica que el nuevo <em>password</em> debe expirar en 240 días.
+                <b>Nota</b>: si visualiza este comando, se procede a crear la cuenta de usuario Administrador, con <em>password</em> Administrador2022 e indica que el nuevo <em>password</em> debe expirar en 240 días.
           .row(titulo="Ejemplo 2")
             .col-md-12.mb-4.mb-md-0
               .titulo-sexto.color-acento-contenido.cfc(data-aos="fade-left")
@@ -519,7 +519,7 @@
                 p.mb-0
                   em ACCOUNT LOCK;
               p
-                <b>Nota</b>: Cuando se define el comando <em>IDENTIFIED WITH….BY</em> está aplicando solo a la cuenta nombrada del ejemplo, es decir <em>Admin1</em>, se puede ver que las dos cuentas usan las contraseñas posteriores para el caso; del primero va a ser un <em>password native</em> es decir asignado por la máquina, para el segundo es <em>admin2022</em>, para los comandos restantes las conexiones deben estar certificados con X509, con un máximo de 48 consultas por hora, el último comando <em>ACCOUNT LOCK</em>, define el bloqueo inicial de la cuenta por lo que debe ser desbloqueado por el administrador de base de datos.
+                <b>Nota</b>: cuando se define el comando <em>IDENTIFIED WITH….BY</em> está aplicando solo a la cuenta nombrada del ejemplo, es decir <em>Admin1</em>, se puede ver que las dos cuentas usan las contraseñas posteriores para el caso; del primero va a ser un <em>password native</em> es decir asignado por la máquina, para el segundo es <em>admin2022</em>, para los comandos restantes las conexiones deben estar certificados con X509, con un máximo de 48 consultas por hora, el último comando <em>ACCOUNT LOCK</em>, define el bloqueo inicial de la cuenta por lo que debe ser desbloqueado por el administrador de base de datos.
 
     .row.justify-content-center.mb-5
       .col-md-10(data-aos="zoom-in")

@@ -220,11 +220,6 @@ export default {
       link:
         'https://es.scribd.com/document/728742385/BaseDatos-Pulido-Escobar-Nunez-eBook',
     },
-    {
-      referencia:
-        'Sarasa, A. (2016). <em>Introducción a las bases de datos NoSQL usando MongoDB.</em> Editorial UOC.',
-      link: '',
-    },
   ],
   creditos: {
     liderEquipo: [
